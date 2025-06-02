@@ -7,5 +7,5 @@ input = sys.stdin.readline
 while True:
     s = input().rstrip()
     print(s)
-    if not s:
+    if not s: # 파이썬에서 빈 문자열은 False로 취급급
         break
