@@ -12,6 +12,8 @@ for i in range(T):
         room = int(N//H)
     else: 
         room = int(N//H) + 1
+
+    # 방번호 숫자 두자리수 맞추기
     if len(str(room)) == 1:
         room = "0"+ str(room)
     print(floor, end='')
