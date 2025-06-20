@@ -21,7 +21,7 @@ for i in range(10):
          temp = sum_weight + i * 1
     else:
          temp = sum_weight + i * 3
-
+ 
     if temp % 10 == 0:
          print(i)
          break
