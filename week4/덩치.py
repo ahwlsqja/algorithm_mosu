@@ -12,6 +12,7 @@ for i in range(N):
     ls.append(a)
 
 #완전탐색
+#순서를 매길 수 없는 경우에는 pass해야한다.
 for i in range(len(ls)):
     for j in range(len(ls)):
         if i == j:
