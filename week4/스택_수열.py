@@ -15,7 +15,7 @@ for i in range(n):
     else:
         print("NO")
         flag = False
-        break #
+        break #No를 한 후에 스택을 그만 쌓아도됨.
 
 if flag == True:
     for i in answer:
